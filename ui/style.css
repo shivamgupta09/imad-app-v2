@@ -1,4 +1,4 @@
-body {
+/*<body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
@@ -19,4 +19,108 @@ body {
 .img-medium {
     height: 200px;
 }
+*/
+body {
+    font-family: sans-serif;
+   background: url(http://smashinghub.com/wp-content/uploads/2013/02/TB-2.jpg);
+    margin-top: 5px;
+    background-size:cover;
+}
+h1 {
+    color : orange;
+}
+h2 {
+    color : green;
+}
+
+/*.box-set {
+  background: #eaeaed;
+}*/
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content,.dropdown-content1,.dropdown-content {
+  display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.center {
+    text-align: center;
+}
+
+.text-big {
+    font-size: 300%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+    height: 200px;
+}
+
+#bottom-right
+{
+    right: 0;
+bottom: 0;
+position: absolute;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    color: pink;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #222233;
+}
+
+.home{
+    color:Red;
+    background: yellow;
+    display:inline;
+}
+a.ghost {
+    background-color:#222233;
+    color:red;
+    border: 1px solid #f5f5f5;
+    border-radius: 15px;
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+   margin-left: 80px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-out;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+a.ghost:hover, a.ghost:focus {
+    background-color:#f5f5f5;
+    color: #000;
+    -webkit-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.element2,.element1
+{
+    display:inline-block;
+}
+.element3{
+    color: orange;
+}
+
 
